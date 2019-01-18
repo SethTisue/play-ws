@@ -6,9 +6,9 @@ import sbt._
 object Dependencies {
   val logback = Seq("ch.qos.logback" % "logback-core" % "1.2.3")
 
-  val assertj = Seq("org.assertj" % "assertj-core" % "3.10.0")
+  val assertj = Seq("org.assertj" % "assertj-core" % "3.11.1")
 
-  val awaitility = Seq("org.awaitility" % "awaitility" % "3.1.0")
+  val awaitility = Seq("org.awaitility" % "awaitility" % "3.1.2")
 
   val specsVersion = "4.2.0"
   val specsBuild = Seq(
@@ -23,14 +23,14 @@ object Dependencies {
 
   val scalaJava8Compat = Seq("org.scala-lang.modules" %% "scala-java8-compat" % "0.8.0")
 
-  val playJsonVersion = "2.6.10"
+  val playJsonVersion = "2.6.13"
   val playJson = Seq("com.typesafe.play" %% "play-json" % playJsonVersion)
 
   val slf4jApi = Seq("org.slf4j" % "slf4j-api" % "1.7.25")
 
   val javaxInject = Seq("javax.inject" % "javax.inject" % "1")
 
-  val sslConfigVersion = "0.3.6"
+  val sslConfigVersion = "0.3.7"
   val sslConfigCore = Seq("com.typesafe" %% "ssl-config-core" % sslConfigVersion)
 
   val scalaXmlVersion = "1.1.0"
@@ -39,13 +39,13 @@ object Dependencies {
   val signpostVersion = "1.2.1.2"
   val oauth = Seq("oauth.signpost" % "signpost-core" % signpostVersion)
 
-  val cachecontrolVersion = "1.1.3"
+  val cachecontrolVersion = "1.1.4"
   val cachecontrol = Seq("com.typesafe.play" %% "cachecontrol" % cachecontrolVersion)
 
-  val asyncHttpClientVersion = "2.5.2"
+  val asyncHttpClientVersion = "2.6.0"
   val asyncHttpClient = Seq("org.asynchttpclient" % "async-http-client" % asyncHttpClientVersion)
 
-  val akkaVersion = "2.5.12"
+  val akkaVersion = "2.5.17"
   val akkaStreams = Seq("com.typesafe.akka" %% "akka-stream" % akkaVersion)
   val akkaHttp = Seq("com.typesafe.akka" %% "akka-http" % "10.1.0")
 
